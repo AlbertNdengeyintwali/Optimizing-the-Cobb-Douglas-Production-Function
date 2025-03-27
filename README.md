@@ -424,6 +424,7 @@ N = 17.57853771\\
 $$
 
 Checking that these values do give the required 1,200 units of output:
+
 $$Q = 0.768 (23.49131857)^{0.147} (138.76391129)^{0.521} (243.86225946)^{0.763} (17.57853771)^{0.044} = 1,200$$
 
 For  test of  stationary points, write the bordered Hessian matrix 
@@ -519,22 +520,20 @@ $$
 $$
 
 
-It is shown that all $|\Delta_3|, |\Delta_4|, \text{and } |\Delta_5|$ have sign of $(-1)^1$ Thus the values for $K, L, M, N$ determine the the minimum point. Accordingly, the cheapest cost level for producing this output will therefore be $TC=50(23.49131857)+ 30(138.76391129) +25(243.86225946) + 20(17.57853771)= \$11,785.6105079$
-
-It is shown that all $|\Delta_3|, |\Delta_4|, \text{and } |\Delta_5|$ have sign of $(-1)^1$ Thus the values for $K, L, M, N$ determine the the minimum point. Accordingly, the cheapest cost level for producing this output will therefore be $TC=50(23.49131857)+ 30(138.76391129) +25(243.86225946) + 20(17.57853771)= \$11,785.6105079$
+It is shown that all $|\Delta_3|, |\Delta_4|, \text{and } |\Delta_5|$ have sign of $(-1)^1$ Thus the values for $K, L, M, N$ determine the the minimum point. Accordingly, the cheapest cost level for producing this output will therefore be $TC=50(23.49131857)+ 30(138.76391129) +25(243.86225946) + 20(17.57853771) = $ \$ $11,785.6105079$
 
  ## Results interpretation
-In this section we are proud to expound the results found. First of all basing on one of the above section  with our Cobb-Douglass production function $Q$ where $\alpha + \beta + \gamma + \eta$ is given by $ 0.147172253 + 0.520665159 + 0.762692634 + 0.044302849
+In this section we are proud to expound the results found. First of all basing on one of the above section  with our Cobb-Douglass production function $Q$ where $\alpha + \beta + \gamma + \eta$ is given by $0.147172253 + 0.520665159 + 0.762692634 + 0.044302849
 = 1.474832894  > 1$, which means that we have increasing returns to scale (i.e 1\% increase in all inputs will lead to $(1.01^{0.147}\cdot1.01^{0.521}\cdot1.01^{0.763}\cdot1.01^{0.044} -1) \approx 1.478\%$  increase in output, assuming that all other factors remain constant).
  Again, since the efficient parameter $A = 0.768$ implies that the inputs used in the production process are being used with an efficiency of $76.8\%$ of their maximum potential.
 
 According to the results from Section1 and Section2, we can have the following points related to the considered firm:
 
-- The firm had \$ $30,000$ and wanted to optimize the out put $Q$ with the relevant inputs of $K, L, M$ and $N$ where the price of each was $\$ 50, \$ 30, \$ 25, \$ 20$ respectively. Based on the results found, the inputs should be 
+- The firm had \$ $30,000$ and wanted to optimize the out put $Q$ with the relevant inputs of $K, L, M$ and $N$ where the price of each was \$ $50$, \$ $30$, \$ $25$, \$ $20$ respectively. Based on the results found, the inputs should be 
 
 $K = 59.7966102, L = 353.220339, M = 620.745763, N = 44.7457627$ 
 
-Where  the maximum output $ Q$ that a company should produce is $4,760.91877869938$ units.
+Where  the maximum output $Q$ that a company should produce is $4,760.91877869938$ units.
 
 - The firm  wanted to optimize the cost of similar inputs as above. So as to produce $1,200$  units. Then the inputs should be 
 $K = 23.49131857, L = 138.76391129, M = 243.86225946, N = 17.57853771$ and the cheapest cost should be \$ $11, 785.6105079$
