@@ -181,7 +181,48 @@ Basing on our aim, only Model summary and Coefficients tables we shall leave wit
 1. ![TABLE1](https://github.com/user-attachments/assets/408e2b62-02e2-4d68-b76f-8fab8510d36f)
 2. ![TABLE2](https://github.com/user-attachments/assets/0f7f3f3b-e54d-4422-b2b2-cb854596ca39)
 
+The $1^{\text{st}}$ table shows that since $R^2 = 0.884$. The value of $0.884$ indicates that $88.4 \%$ of the total outputs (or observed) variation in $\ln Q$  is attributable to, or explained by, the  regression function or the regressors inputs $(\ln K, \ln L, \ln M, \ln N)$ 
 
+From the $2^{\text{nd}}$ table in column named $B$ we obtain the coefficients of the model which are given as follows:
+
+$$
+\begin{align*}
+\text{Regression coefficients} & & \text{Cobb-douglass positive constants}\\
+\begin{cases}
+C = - 0.265 \\
+\alpha = 0.147\\
+\beta = 0.521\\
+\gamma = 0.763\\
+\eta = 0.044
+\end{cases}
+& \Longrightarrow & 
+\begin{cases}
+A = e^{- 0.265} = 0.768 \\
+\alpha = 0.147\\
+\beta = 0.521\\
+\gamma = 0.763\\
+\eta = 0.044
+\end{cases}
+\end{align*}
+$$
+
+Basing on the necessary information about the output and generalized analysis we have seen we can estimate the multiple linear regression model as
+
+$$
+\begin{equation}\label{Cobb4}
+y = -0.265 + 0.147x_1 + 0.521x_2 + 0.763x_3 + 0.044x_4
+\end{equation}
+$$
+
+Finally the linear regression model has helped us to find the positive constants of Cobb-Douglass coefficients. That is, from Equation \ref{Cobb4}, we obtain the estimation of the Cobb-Douglass production function of the firm.
+
+$$
+\begin{equation}\label{Cobb5}
+Q = 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044}
+\end{equation}
+$$
+
+This estimated production function can be used to predict the output of the firm once the quantity for each inputs is known.
 
 ![python_output_2](https://github.com/user-attachments/assets/d3dc725b-eaa7-40ad-87e7-c2d2af813e83)
 ![python_output_3](https://github.com/user-attachments/assets/75d763a2-d140-4f85-98f5-e3d015b85788)
