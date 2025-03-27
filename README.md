@@ -22,8 +22,6 @@ Linear production functions, Diminishing Returns Production Function, Fixed prop
 
 Apart from production function, another important concept in economics is the economic cost. If a firm is producing output $Q$ based on $n$ inputs $x_1, x_2, \cdots, x_n$, where the prices of inputs are $r_1, r_2, \cdots, r_n$ then the total cost of the firm is given by $C=r_1x_1+r_2x_2+\cdots +r_nx_n$.  If the price for each unit in the output $Q$ is $Z$ then the total revenue will be given by $QZ$ and the profit will be given by $QZ-C$. To maximize the profit, the firm must minimize the cost of inputs, or must maximize the output.
 
- **Example**:
- Cobb-Douglass production function, Constant Elasticity of Substitution production function, Linear production function, etc.
 
 ### Why production functions?
 
@@ -447,7 +445,7 @@ $$\frac{\partial^2 G}{\partial M \partial N}  = \lambda \left(-0.025783296K^{0.1
 
 $$\frac{\partial^2 G}{\partial N^2} = \lambda \left(0.032305152K^{0.147}L^{0.521}M^{0.763}N^{-1.956}\right)$$
 
-Thus the matrix $\pmb{W}$ which is symmetric is given by
+Thus the matrix $W$ which is symmetric is given by
 
 $$
 W = \begin{bmatrix}
@@ -458,7 +456,8 @@ W = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-$$=\begin{bmatrix}                1.82179884	& -0.180066521	& -0.156440771 &	-0.00051321\\\\
+$$=\begin{bmatrix}                
+1.82179884	& -0.180066521	& -0.156440771 &	-0.00051321\\\\
 -0.180066521 &	0.103557185	& -0.093864463	& -0.07509157\\\\
 -0.156440771 &	-0.093864463 &	0.024296503	 & -0.062576309\\\\
 -0.00051321 &	-0.07509157	& -0.062576309 &	1.087690018
@@ -516,7 +515,28 @@ $$
 $$
 
 
-It is shown that all $|\Delta_3|, |\Delta_4|, \text{and } |\Delta_5|$ have sign of $(-1)^1$ Thus the values for $K, L, M, N$ determine the the minimum point. Accordingly, the cheapest cost level for producing this output will therefore be $TC=50(23.49131857)+ 30(138.76391129) +25(243.86225946) + 20(17.57853771)= \$ 11,785.6105079$
+It is shown that all $|\Delta_3|, |\Delta_4|, \text{and } |\Delta_5|$ have sign of $(-1)^1$ Thus the values for $K, L, M, N$ determine the the minimum point. Accordingly, the cheapest cost level for producing this output will therefore be $TC=50(23.49131857)+ 30(138.76391129) +25(243.86225946) + 20(17.57853771)= \$11,785.6105079$
+
+It is shown that all $|\Delta_3|, |\Delta_4|, \text{and } |\Delta_5|$ have sign of $(-1)^1$ Thus the values for $K, L, M, N$ determine the the minimum point. Accordingly, the cheapest cost level for producing this output will therefore be $TC=50(23.49131857)+ 30(138.76391129) +25(243.86225946) + 20(17.57853771)= \$11,785.6105079$
+
+ ## Results interpretation
+In this section we are proud to expound the results found. First of all basing on one of the above section  with our Cobb-Douglass production function $Q$ where $\alpha + \beta + \gamma + \eta$ is given by $ 0.147172253 + 0.520665159 + 0.762692634 + 0.044302849
+= 1.474832894  > 1$, which means that we have increasing returns to scale (i.e 1\% increase in all inputs will lead to $(1.01^{0.147}\cdot1.01^{0.521}\cdot1.01^{0.763}\cdot1.01^{0.044} -1) \approx 1.478\%$  increase in output, assuming that all other factors remain constant).
+ Again, since the efficient parameter $A = 0.768$ implies that the inputs used in the production process are being used with an efficiency of $76.8\%$ of their maximum potential.
+
+According to the results from Section1 and Section2, we can have the following points related to the considered firm:
+
+- The firm had $\$ 30,000$ and wanted to optimize the out put $Q$ with the relevant inputs of $K, L, M$ and $N$ where the price of each was $\$ 50, \$ 30, \$ 25, \$ 20$ respectively. Based on the results found, the inputs should be 
+
+$K = 59.7966102, L = 353.220339, M = 620.745763, N = 44.7457627$ 
+
+Where  the maximum output $ Q$ that a company should produce is $4,760.91877869938$ units.
+
+- The firm  wanted to optimize the cost of similar inputs as above. So as to produce $1,200$  units. Then the inputs should be 
+$K = 23.49131857, L = 138.76391129, M = 243.86225946, N = 17.57853771$ and the cheapest cost should be $\$ 11, 785.6105079$
+
+We note the the same method works even if we have a firm with more than four inputs and any given number of linear and non-linear constraints.
+
 
 
 ## Conclusion and Recommendations
