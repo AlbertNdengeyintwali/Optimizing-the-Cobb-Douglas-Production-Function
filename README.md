@@ -227,12 +227,14 @@ This estimated production function can be used to predict the output of the firm
 We now assume that the firm can buy the four inputs $K, L, M$, and $N$ at a per-
 unit price of $\$ 50, \$ 30, \$ 25$ and $ \$ 20$, respectively, and operate with the estimated production function $Q = 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044}$. The problem which is considered now, it to know the optimum value of outputs that can make a total cost of $\$ 30,000$. This problem can mathematically written as follows:
 
+$$
 \begin{eqnarray}
 \begin{array}{ccc}
 \text{Optimize} & 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044}\\
 \text{Subject to } &  50K + 30L +25M + 20N)=30,000 
 \end{array}
 \end{eqnarray}
+$$
 
 The relevant Lagrange function is
 
@@ -333,8 +335,8 @@ In the optimization problem \ref{Cobb6}, we have  $n = 4, m = 1$ and $2m + 1 = 3
 0 & 50 & 30\\\\
 50 & -0.167530077 & 0.016558666\\\\
 30 & 0.016558666 & -0.009522974
-\end{vmatrix} = 224.26050
-2$$
+\end{vmatrix} = 224.260502
+$$
 
 $$
 |\Delta_4| = \begin{vmatrix}
@@ -367,7 +369,9 @@ $$
 ###  Optimum combination of inputs for a determined output
 
 We consider the same firm with the same production function, where four inputs are required, with the production function.
-$$Q = 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044}  $$
+
+$$Q = 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044}$$
+
 The inputs prices per unit are the same as in the previous section. We assume that the company want an output of $1,200$ units, and the question is to find the optimum way of producing these units.
 
 
@@ -526,14 +530,14 @@ In this section we are proud to expound the results found. First of all basing o
 
 According to the results from Section1 and Section2, we can have the following points related to the considered firm:
 
-- The firm had $\$ 30,000$ and wanted to optimize the out put $Q$ with the relevant inputs of $K, L, M$ and $N$ where the price of each was $\$ 50, \$ 30, \$ 25, \$ 20$ respectively. Based on the results found, the inputs should be 
+- The firm had \$ $30,000$ and wanted to optimize the out put $Q$ with the relevant inputs of $K, L, M$ and $N$ where the price of each was $\$ 50, \$ 30, \$ 25, \$ 20$ respectively. Based on the results found, the inputs should be 
 
 $K = 59.7966102, L = 353.220339, M = 620.745763, N = 44.7457627$ 
 
 Where  the maximum output $ Q$ that a company should produce is $4,760.91877869938$ units.
 
 - The firm  wanted to optimize the cost of similar inputs as above. So as to produce $1,200$  units. Then the inputs should be 
-$K = 23.49131857, L = 138.76391129, M = 243.86225946, N = 17.57853771$ and the cheapest cost should be $\$ 11, 785.6105079$
+$K = 23.49131857, L = 138.76391129, M = 243.86225946, N = 17.57853771$ and the cheapest cost should be \$ $11, 785.6105079$
 
 We note the the same method works even if we have a firm with more than four inputs and any given number of linear and non-linear constraints.
 
