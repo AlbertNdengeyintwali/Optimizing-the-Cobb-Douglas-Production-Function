@@ -50,9 +50,8 @@ where $A$ is an efficient constant, and $\alpha, \beta,\gamma$ and $\eta$ are pa
 
 The first problem considered is to estimate the parameters  $\alpha, \beta, \gamma$ and $\eta$ by using the given data. The above equation can be written in the form 
 
-$$
-\ln Q=\ln A+\alpha \ln K+\beta \ln L+\gamma \ln R +\eta \ln 
-M$$
+$$\ln Q=\ln A+\alpha \ln K+\beta \ln L+\gamma \ln R +\eta \ln M$$
+
 Hence the estimation of these parameters can be done with the least squares method.
 
 The price of each unit of these inputs are $r_1, r_2, r_3$ and $r_4$, Rwandan francs respectively. The total cost to use in buying the inputs is given by $r_1K+r_2L+r_3R+r_4M$. Assuming that the firm has the amount $C$, which maybe used to buy the four inputs, it follows that we must have the equality $r_1K+r_2L+r_3R+r_4M=C$. 
