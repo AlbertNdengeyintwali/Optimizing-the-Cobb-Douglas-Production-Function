@@ -116,8 +116,7 @@ $$Q =  10^{0.3} \cdot 20^{0.7}=16.245$$
 
 ### Formulation of the real life problem under consideration
 
-life problem under consideration}
- The  Cobb-Douglas production function allows firms to determine the most efficient combination of inputs to produce a given level of output, while taking into account the constraint that the inputs used are limited by a fixed budget or other constraints.
+The  Cobb-Douglas production function allows firms to determine the most efficient combination of inputs to produce a given level of output, while taking into account the constraint that the inputs used are limited by a fixed budget or other constraints.
  
 Consider a a firm manufacturing products, where the vector $Q$ of outputs over a period of twelve months is given. The production units for each period is shown in the table. The production of this firm depends on four inputs, which are denoted by 
   $K, L, M$ and $N$. The data used here where taken from the book {\color{blue}\cite{Douglass}}.
@@ -150,7 +149,7 @@ In order to estimate the parameters  $\alpha, \beta, \gamma$ and $\eta$ by using
 
 $$\ln Q=\ln A+\alpha \ln K+\beta \ln L+\gamma \ln M +\eta \ln N$$
 
-Letting  $\ln Q = y,  \ln A = C,  \ln K = x_1,  \ln L = x_2,  \ln M = x_3$ and $ \ln N = x_4$, the previous equation can be written as a multiple linear regression model:
+Letting  $\ln Q = y,  \ln A = C,  \ln K = x_1,  \ln L = x_2,  \ln M = x_3$ and $\ln N = x_4$, the previous equation can be written as a multiple linear regression model:
 
 
 $$y = C+\alpha x_1 + \beta x_2 +\gamma x_3 + \eta x_4$$
@@ -174,6 +173,11 @@ Computing the natural logarithm for each of the above inputs and output, we obta
 | 5.62      | 4.09      | 3.22      | 4.51      | 4.65      |
 | 5.66      | 3.91      | 3.22      | 4.50      | 5.44      |
 | 5.56      | 3.64      | 3.14      | 4.49      | 4.58      |
+
+
+The  estimation of the parameters in Equation multiple linear regression model can be done with the least squares method. This can be done in Excel, Statistical Package for Social Sciences (SPSS) or any other statistical software. In our case we use the SPSS to estimate the parameters of Equation multiple linear regression model. The output tables should include Model summary  table that provides an overview of the regression model including the R-squared value which measures the proportion of variance in the dependent variable that is explained by the independent variables, ANOVA table that provides the results of the analysis of variance (ANOVA) for the regression model, including the F-test for the overall significance of the model and Coefficients   table that provides the estimates of the regression coefficients (i.e., the beta weights) for each independent variable, as well as their standard errors, t-values, and p-values.
+Basing on our aim, only Model summary and Coefficients tables we shall leave with and they look like the following:
+
 
 
 - We consider a firm which uses the Cobb-Douglass production functions with four inputs $K,L,M$ and $N$.
