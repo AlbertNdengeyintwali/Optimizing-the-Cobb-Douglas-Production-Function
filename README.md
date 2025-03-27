@@ -178,6 +178,15 @@ Computing the natural logarithm for each of the above inputs and output, we obta
 The  estimation of the parameters in Equation multiple linear regression model can be done with the least squares method. This can be done in Excel, Statistical Package for Social Sciences (SPSS) or any other statistical software. In our case we use the SPSS to estimate the parameters of Equation multiple linear regression model. The output tables should include Model summary  table that provides an overview of the regression model including the R-squared value which measures the proportion of variance in the dependent variable that is explained by the independent variables, ANOVA table that provides the results of the analysis of variance (ANOVA) for the regression model, including the F-test for the overall significance of the model and Coefficients   table that provides the estimates of the regression coefficients (i.e., the beta weights) for each independent variable, as well as their standard errors, t-values, and p-values.
 Basing on our aim, only Model summary and Coefficients tables we shall leave with and they look like the following:
 
+| 1        | ![TABLE1](https://github.com/user-attachments/assets/408e2b62-02e2-4d68-b76f-8fab8510d36f)|
+| 2        | ![TABLE2](https://github.com/user-attachments/assets/0f7f3f3b-e54d-4422-b2b2-cb854596ca39)|
+
+
+![python_output_2](https://github.com/user-attachments/assets/d3dc725b-eaa7-40ad-87e7-c2d2af813e83)
+![python_output_3](https://github.com/user-attachments/assets/75d763a2-d140-4f85-98f5-e3d015b85788)
+
+
+
 
 
 - We consider a firm which uses the Cobb-Douglass production functions with four inputs $K,L,M$ and $N$.
