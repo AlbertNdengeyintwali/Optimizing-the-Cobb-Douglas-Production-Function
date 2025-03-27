@@ -566,7 +566,19 @@ improving future research-oriented in the same area.
 
 - The current project focuses on the manufacturing industry. Future research could test the model in different industries such as agriculture, service, or healthcare to determine its generalizability. 
 
-- Future research could compare the generalized Cobb-Douglass production function with other production functions such as the CES production function to determine the best fit for different industries and situations.  
+- Future research could compare the generalized Cobb-Douglass production function with other production functions such as the CES production function to determine the best fit for different industries and situations.
+
+
+
+
+
+
+
+
+  ## Ownership
+This project is owned and created by **Albert Ndengeyintwali**.
+
+© 2025 Albert Ndengeyintwali. All rights reserved.
 
 
 
