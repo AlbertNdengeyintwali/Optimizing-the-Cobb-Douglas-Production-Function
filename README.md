@@ -209,7 +209,7 @@ $$
 Basing on the necessary information about the output and generalized analysis we have seen we can estimate the multiple linear regression model as
 
 $$
-\begin{equation}\label{Cobb4}
+\begin{equation}
 y = -0.265 + 0.147x_1 + 0.521x_2 + 0.763x_3 + 0.044x_4
 \end{equation}
 $$
@@ -217,7 +217,7 @@ $$
 Finally the linear regression model has helped us to find the positive constants of Cobb-Douglass coefficients. That is, from Equation \ref{Cobb4}, we obtain the estimation of the Cobb-Douglass production function of the firm.
 
 $$
-\begin{equation}\label{Cobb5}
+\begin{equation}
 Q = 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044}
 \end{equation}
 $$
@@ -229,7 +229,7 @@ This estimated production function can be used to predict the output of the firm
 We now assume that the firm can buy the four inputs $K, L, M$, and $N$ at a per-
 unit price of $\$ 50, \$ 30, \$ 25$ and $ \$ 20$, respectively, and operate with the estimated production function $Q = 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044}$. The problem which is considered now, it to know the optimum value of outputs that can make a total cost of $\$ 30,000$. This problem can mathematically written as follows:
 
-\begin{eqnarray}\label{Cobb6}
+\begin{eqnarray}
 \begin{array}{ccc}
 \text{Optimize} & 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044}\\
 \text{Subject to } &  50K + 30L +25M + 20N)=30,000 
@@ -359,7 +359,7 @@ It follows from the rule discussed in Section \ref{Lagrange}  that the obtained 
 
 $$
 \begin{equation*}
-Q_{\rotatebox{-70}{\tiny{max}}}(K,L,M,N) = 4,760.91877869938  \quad \emph{units}
+Q_{max}}(K,L,M,N) = 4,760.91877869938  \quad \text{units}
 \end{equation*}
 $$
 
