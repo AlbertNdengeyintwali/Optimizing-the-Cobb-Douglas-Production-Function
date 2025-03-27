@@ -100,15 +100,6 @@ In this final research project, we have used the following methodology in order 
 - **Designing the research project** The primary goal of this final research project, is to optimize the output from the generalized Cobb-Douglass production function in a given company where more than two inputs are available while accounting for cost linear constraints. Different steps that are used to achieve this goal were discussed and the methods to be used. The topic was suggested by my supervisor and different steps to follows were fixed in a close collaboration with me.
 - **Data collection and data analysis** The data used in this final project are the secondary data that we have taken from a book of statistics. In these data, we have taken the columns as the values of inputs, where a period of twelve months was considered. To estimate the parameters, the Python software was used.
 
-**Example of a Cobb-Douglass production function**:
-
-- Here's an example of a production function: $Q = K^{0.3} \cdot L^{0.7}$.
-- Here, $Q$ represents the total output, $K$ represents the amount of capital used in production, and $L$ represents the amount of labor used in production. 
-- The exponents $0.3$ and $0.7$ represent the elasticity of output with respect to capital and labor, respectively.
-- If we have $10$ units of capital and $20$ units of labor, we can calculate the total output as follows:
-  
-$$Q =  10^{0.3} \cdot 20^{0.7}=16.245$$
-
 
 ## Results
 
