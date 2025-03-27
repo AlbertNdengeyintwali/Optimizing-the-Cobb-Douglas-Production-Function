@@ -545,15 +545,28 @@ We note the the same method works even if we have a firm with more than four inp
 ## Conclusion and Recommendations
 
 ### Conclusion
-- In this work we have used the method of  Lagrange multipliers to solve problem  related to optimization of production function under a set of cost constraints.
-- We have estimated the parameters of the Cobb-Douglass production function in a firm with four inputs, by using the data on a period of 12 months.
-- We have optimized the output from the Cobb-Douglass production function under one linear constraint.
-- We have determined the optimal combination of inputs given the amount of units in the outputs the firm want to produce.
+
+In this work we have used the method of using Lagrange multipliers which is include among the best methods that act as  a useful tool for optimizing the production function. 
+
+The main problem which was under consideration was to optimize the output from the generalized Cobb-Douglass production function with cost linear  constraints. We have considered a firm with four inputs that are used to get output. Namely,  we have had the data containing 1 kind of output and 4 kind of inputs in 12 months, we have first computed all relevant positive constants using different tools including SPSS in order to estimate the corresponding parameters of  the Cobb-Douglas production function. After knowing the cost of each input unit and related purchasing power for all inputs but aiming to maximize the output, and again after knowing the outputs units that a company wants to produce  aiming to minimize the cost, then by setting up the Lagrange function and solving for the optimal values of the inputs and the Lagrange multiplier, we have been able for  the firm to make production decisions that maximize efficiency  and minimize the cost with purpose of profitability as well.
+
+In this study, we have also determined the possible optimal combination of inputs under the constraint of a given amount of output to produce.
+
+This study has performed a great work where we have found that  output increases in a greater proportion than the increase in all inputs after obtaining that the sum of all parameters is $1.474832894$ which is greater than one.
+
 
 ### Recommendations
 
-- Future research could use real-world data to validate the results and provide more practical insights.
-- Future research could compare the Generalized Cobb-Douglass Production Function with other production functions such as the CES Production Function to determine the best fit for different industries and situations.
+This section is dedicated to the recommendations to be taken into consideration for
+improving future research-oriented in the same area.
+
+- The current project focuses on optimizing output from the generalized Cobb-Douglass production function using four inputs and cost constraints. Future research could expand the scope to include more inputs and different types of constraints. This would provide a more comprehensive understanding of the production function and its constraints.
+
+- The current project uses simulated data to illustrate the optimization process. Future research could use real-world data to validate the results and provide more practical insights.
+
+- The current project focuses on the manufacturing industry. Future research could test the model in different industries such as agriculture, service, or healthcare to determine its generalizability. 
+
+- Future research could compare the generalized Cobb-Douglass production function with other production functions such as the CES production function to determine the best fit for different industries and situations.  
 
 
 
