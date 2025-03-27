@@ -5,8 +5,9 @@
 1. [Introduction](#introduction)
 2. [Problem Statement](#problem-statement)
 3. [Objectives](#objectives)
-4. [Results](#results)
-5. [Conclusion and Recommendations](#conclusion-and-recommendations)
+4. [Methodology](#Methodology)
+5. [Results](#results)
+6. [Conclusion and Recommendations](#conclusion-and-recommendations)
 
 ---
 
@@ -81,13 +82,26 @@ The above problems can be extended by increasing the number of constrains, which
 
 ## Objectives
 
-- **Primary Objective**: o optimize the output from the generalized Cobb-Douglass production function in a given company where more than two inputs are available
-while accounting for cost linear constraints satisfied by those inputs.
-- **Secondary Objectives**:
-    - To estimate the parameters of the generalized Cobb-Douglass production function in a firm with more than two inputs.
-    - To determine how much output to produce from the Cobb-Douglas production function for a given amount of inputs.
-    - To know the maximum output from the Cobb-Douglass production function, and what combination of inputs to be used given the price of inputs.
+ **The Primary Objective** of this research is to optimize the output from the generalized Cobb-Douglass production function in a given company, and to determine an optimal combination of inputs given a fixed amount of units in  the production function.
+ **The specific objectives of this study are the following:**:
+ - To estimate the parameters of the generalized Cobb-Douglass production function in a firm with more than two inputs.
+ - To determine how much output to produce from the Cobb-Douglas production function for a given amount of inputs.
+ - To know the optimal output from the Cobb-Douglass production function, and what combination of inputs to be used given the price of inputs.
+
+## Methodology
+
+In this final research project, we have used the following methodology in order to achieve the specified objectives:
  
+ - **Problem formulation** We started by formulating the problem to be considered in this final research project. The formulation of the problem was done by taking into consideration the following questions:
+
+ 1. What are the methods used to estimate parameters of the Cobb-Douglass production function?
+ 2. In a given firm, how much output to produce from the Cobb-Douglas production function for a given amount of inputs?
+ 3. Given an amount of output from the Cobb-Douglass production function, what is the best combination inputs to be used given the price of each unit of inputs?
+ 
+- **Theoretical review** We have started by reading  the theory related to optimization problems. Namely, different types of problems in optimization such as linear and non-linear, constrained and non-constrained, and different methods that are used to solve these types of problem. A particular attention, was paid to the Lagrange multiplier method, Karush-Kuhn Tucker conditions and the method of Least-squares. Different documents related to optimization methods were consulted.
+- **Designing the research project** The primary goal of this final research project, is to optimize the output from the generalized Cobb-Douglass production function in a given company where more than two inputs are available while accounting for cost linear constraints. Different steps that are used to achieve this goal were discussed and the methods to be used. The topic was suggested by my supervisor and different steps to follows were fixed in a close collaboration with me.
+- **Data collection and data analysis** The data used in this final project are the secondary data that we have taken from a book of statistics. In these data, we have taken the columns as the values of inputs, where a period of twelve months was considered. To estimate the parameters, the Python software was used.
+
 **Example of a Cobb-Douglass production function**:
 
 - Here's an example of a production function: $Q = K^{0.3} \cdot L^{0.7}$.
