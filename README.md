@@ -520,7 +520,7 @@ $$
 $$
 
 
-It is shown that all $|\Delta_3|, |\Delta_4|, \text{and } |\Delta_5|$ have sign of $(-1)^1$ Thus the values for $K, L, M, N$ determine the the minimum point. Accordingly, the cheapest cost level for producing this output will therefore be $TC=50(23.49131857)+ 30(138.76391129) +25(243.86225946) + 20(17.57853771) = $ \$ $11,785.6105079$
+It is shown that all $|\Delta_3|, |\Delta_4|, \text{and } |\Delta_5|$ have sign of $(-1)^1$ Thus the values for $K, L, M, N$ determine the the minimum point. Accordingly, the cheapest cost level for producing this output will therefore be $TC=50(23.49131857)+ 30(138.76391129) +25(243.86225946) + 20(17.57853771) =$ \$ $11,785.6105079$
 
  ## Results interpretation
 In this section we are proud to expound the results found. First of all basing on one of the above section  with our Cobb-Douglass production function $Q$ where $\alpha + \beta + \gamma + \eta$ is given by $0.147172253 + 0.520665159 + 0.762692634 + 0.044302849
@@ -536,7 +536,7 @@ $K = 59.7966102, L = 353.220339, M = 620.745763, N = 44.7457627$
 Where  the maximum output $Q$ that a company should produce is $4,760.91877869938$ units.
 
 - The firm  wanted to optimize the cost of similar inputs as above. So as to produce $1,200$  units. Then the inputs should be 
-$K = 23.49131857, L = 138.76391129, M = 243.86225946, N = 17.57853771$ and the cheapest cost should be \$ $11, 785.6105079$
+$K = 23.49131857, L = 138.76391129, M = 243.86225946, N = 17.57853771$ and the cheapest cost should be \$ $11,785.6105079$
 
 We note the the same method works even if we have a firm with more than four inputs and any given number of linear and non-linear constraints.
 
