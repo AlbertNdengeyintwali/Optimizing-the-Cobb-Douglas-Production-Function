@@ -114,12 +114,16 @@ $$Q =  10^{0.3} \cdot 20^{0.7}=16.245$$
 
 ## Results
 
-### Estimating the parameters in the Cobb-Douglass production function
+### Formulation of the real life problem under consideration
 
-- We consider a firm which uses the Cobb-Douglass production functions with four inputs $K,L,M$ and $N$.
-- The production $Q$ and the units of inputs used over a period of 12 months are presented in the following table.
+life problem under consideration}
+ The  Cobb-Douglas production function allows firms to determine the most efficient combination of inputs to produce a given level of output, while taking into account the constraint that the inputs used are limited by a fixed budget or other constraints.
+ 
+Consider a a firm manufacturing products, where the vector $Q$ of outputs over a period of twelve months is given. The production units for each period is shown in the table. The production of this firm depends on four inputs, which are denoted by 
+  $K, L, M$ and $N$. The data used here where taken from the book {\color{blue}\cite{Douglass}}.
+ The units for each input in each month are also shown in the table. So, the data set is shown in the following table:
 
-| Months |   Q  |  K  |  L  |  M  |  N  |
+ | Months |   Q  |  K  |  L  |  M  |  N  |
 |--------|----:|---:|---:|---:|---:|
 | Jan    | 240 | 25 | 24 | 91 | 100 |
 | Feb    | 236 | 31 | 21 | 90 |  95 |
@@ -133,6 +137,49 @@ $$Q =  10^{0.3} \cdot 20^{0.7}=16.245$$
 | Oct    | 276 | 60 | 25 | 91 | 105 |
 | Nov    | 288 | 50 | 25 | 90 | 100 |
 | Dec    | 261 | 38 | 23 | 89 |  98 |
+
+Using this data, we want to estimate the coefficients of the Cobb-Douglass production function and then obtain the mathematical expression relating the output and the inputs for this firm.
+
+### Estimating the parameters in the Cobb-Douglass production function
+
+Consider the expression of the Cobb-Douglass production function with four inputs.
+
+ $$Q(K,L,R,M) = AK^{\alpha}L^{\beta}M^{\gamma}N^{\eta}$$
+
+In order to estimate the parameters  $\alpha, \beta, \gamma$ and $\eta$ by using the given data, The above equation  can be written in the form 
+
+$$\ln Q=\ln A+\alpha \ln K+\beta \ln L+\gamma \ln M +\eta \ln N$$
+
+Letting  $\ln Q = y,  \ln A = C,  \ln K = x_1,  \ln L = x_2,  \ln M = x_3$ and $ \ln N = x_4$, the previous equation can be written as a multiple linear regression model:
+
+
+$$y = C+\alpha x_1 + \beta x_2 +\gamma x_3 + \eta x_4$$
+
+Computing the natural logarithm for each of the above inputs and output, we obtain the following table:
+
+## Data Table
+
+| \$ln(Q)$ | \$ln(K)$ | \$ln(L)$ | \$ln(M)$ | \$ln(N)$ |
+|-----------|-----------|-----------|-----------|-----------|
+| y         | x₁        | x₂        | x₃        | x₄        |
+| 5.48      | 3.22      | 3.18      | 4.51      | 4.61      |
+| 5.46      | 3.43      | 3.04      | 4.50      | 4.60      |
+| 5.60      | 3.81      | 3.18      | 4.48      | 4.70      |
+| 5.61      | 4.09      | 3.22      | 4.47      | 4.62      |
+| 5.71      | 4.17      | 3.22      | 4.51      | 4.70      |
+| 5.76      | 4.28      | 3.26      | 4.54      | 4.79      |
+| 5.70      | 4.38      | 3.22      | 4.47      | 5.48      |
+| 5.69      | 4.43      | 3.22      | 4.45      | 4.56      |
+| 5.59      | 4.32      | 3.18      | 4.48      | 4.70      |
+| 5.62      | 4.09      | 3.22      | 4.51      | 4.65      |
+| 5.66      | 3.91      | 3.22      | 4.50      | 5.44      |
+| 5.56      | 3.64      | 3.14      | 4.49      | 4.58      |
+
+
+- We consider a firm which uses the Cobb-Douglass production functions with four inputs $K,L,M$ and $N$.
+- The production $Q$ and the units of inputs used over a period of 12 months are presented in the following table.
+
+
 
 - Using the concepts from Multiple linear regression, we estimate the parameters of the Cobb-Douglass  Production function \ref{Albert} of this firm:
 
