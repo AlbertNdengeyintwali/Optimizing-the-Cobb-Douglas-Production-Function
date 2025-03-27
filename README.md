@@ -225,7 +225,7 @@ This estimated production function can be used to predict the output of the firm
 ## Optimization of the production function under linear constraints
 
 We now assume that the firm can buy the four inputs $K, L, M$, and $N$ at a per-
-unit price of $\$ 50, \$ 30, \$ 25$ and $ \$ 20$, respectively, and operate with the estimated production function $Q = 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044}$. The problem which is considered now, it to know the optimum value of outputs that can make a total cost of $\$ 30,000$. This problem can mathematically written as follows:
+unit price of \$ $50$, \$ $30$, \$ $25$ and  \$ $20$, respectively, and operate with the estimated production function $Q = 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044}$. The problem which is considered now, it to know the optimum value of outputs that can make a total cost of \$ $30,000$. This problem can mathematically written as follows:
 
 $$
 \begin{eqnarray}
