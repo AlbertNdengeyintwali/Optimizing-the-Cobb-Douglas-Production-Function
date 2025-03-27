@@ -292,12 +292,14 @@ $$\frac{\partial^2 G}{\partial N^2} = \lambda \left(0.032305152K^{0.147}L^{0.521
 
 Thus the matrix $\pmb{W}$ which is symmetric is given by
 
-$$\pmb{W} = \begin{bmatrix}
+$$
+W = \begin{bmatrix}
 \dfrac{\partial^2 G}{\partial K^2} & \dfrac{\partial^2 G}{\partial K \partial L} & \dfrac{\partial^2 G}{\partial K \partial M} & \dfrac{\partial^2 G}{\partial K \partial N}\\\\
 \dfrac{\partial^2 G}{\partial L \partial K} & \dfrac{\partial^2 G}{\partial L^2} & \dfrac{\partial^2 G}{\partial L \partial M} & \dfrac{\partial^2 G}{\partial L \partial N}\\\\
 \dfrac{\partial^2 G}{\partial M \partial K} & \dfrac{\partial^2 G}{\partial M \partial L} &   \dfrac{\partial^2 G}{\partial M^2}  & \dfrac{\partial^2 G}{\partial M \partial N}\\\\
 \dfrac{\partial^2 G}{\partial N \partial K} & \dfrac{\partial^2 G}{\partial N \partial L} & \dfrac{\partial^2 G}{\partial N \partial M} & \dfrac{\partial^2 G}{\partial N^2} 
-\end{bmatrix}$$
+\end{bmatrix}
+$$
 
 $$=\begin{bmatrix}                1.82179884	& -0.180066521	& -0.156440771 &	-0.00051321\\\\
 -0.180066521 &	0.103557185	& -0.093864463	& -0.07509157\\\\
@@ -308,7 +310,7 @@ $$=\begin{bmatrix}                1.82179884	& -0.180066521	& -0.156440771 &	-0.
 and
 
 $$
-\pmb{P}= \begin{bmatrix}
+P= \begin{bmatrix}
 50 & 30 & 25 & 20\\
 \end{bmatrix}
 $$
@@ -316,7 +318,7 @@ $$
 Therefore bordered Hessian matrix is given by :
 
  $$
- \pmb{H}^B = \begin{bmatrix}
+ H^B = \begin{bmatrix}
 0 & 50 & 30 & 25 & 20\\\\
 50 & -0.167530077 & 0.016558666 &	0.014386075	& 1.85404E-05\\\\
 30 & 0.016558666	& -0.009522974	& 0.008631645 & 0.006905316\\\\
@@ -359,70 +361,163 @@ It follows from the rule discussed in Section \ref{Lagrange}  that the obtained 
 
 $$
 \begin{equation*}
-Q_{max}}(K,L,M,N) = 4,760.91877869938  \quad \text{units}
+Q_{max}(K,L,M,N) = 4,760.91877869938  \quad \text{units}
 \end{equation*}
 $$
 
-![python_output_3](https://github.com/user-attachments/assets/75d763a2-d140-4f85-98f5-e3d015b85788)
-
-
-
-
-
-- We consider a firm which uses the Cobb-Douglass production functions with four inputs $K,L,M$ and $N$.
-- The production $Q$ and the units of inputs used over a period of 12 months are presented in the following table.
-
-
-
-- Using the concepts from Multiple linear regression, we estimate the parameters of the Cobb-Douglass  Production function \ref{Albert} of this firm:
-
-$$Q = 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044}$$
-
-- Since $\alpha + \beta + \gamma + \eta=0.147172253 + 0.520665159 + 0.762692634 + 0.044302849 = 1.474832894  > 1$, it follows that we have increasing returns to scale.
-- This means that the output increases in a greater proportion than the increase in all inputs.
-- Since the efficient parameter $A = 0.768$ it follows  that the inputs used in the production process are being used with an efficiency of $76.8\%$ of their maximum potential.
-
-### Optimizing the outputs from the Cobb-Douglass production function
-
-- The firm with the data above wants to buy the four inputs $K, L, M$, and $N$ at a per unit price of $\$ 50, \$ 30, \$ 25$ and $ \$ 20$, respectively, and operate with the production function $Q$.
-- The problem is to know the optimal output it can make for a total cost of $ \$ 30,000$.  Mathematically, the problem to solve is the following:
-
-$$
-\begin{eqnarray}
-\begin{array}{ccc}
-\text{Optimize} &Q= 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044}\\
-\text{Subject to } &  50K + 30L +25M + 20N=30,000 
-\end{array}
-\end{eqnarray}
-$$
-
-- Using the method of Lagrange multipliers we obtain the following value
-$K = 59.7966102, L = 353.220339, M = 620.745763,\text{ and } N = 44.7457627$
-- Testing the nature of this point, we conclude that the point gives the maximum output for the firm.  Hence the maximum  of the firm under the given constraint is given by:
-
-$$Q_{\max}(K,L,M,N) = 4,760.91877869938 $$
 
 ###  Optimum combination of inputs for a determined output
 
-- We consider the same firm with the same production function, where four inputs are required, with the production function.
-  
+We consider the same firm with the same production function, where four inputs are required, with the production function.
 $$Q = 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044}  $$
+The inputs prices per unit are the same as in the previous section. We assume that the company want an output of $1,200$ units, and the question is to find the optimum way of producing these units.
 
-- The inputs prices per unit are the same as in the previous section. We assume that the company want an output of $1,200$ units, and the question is to find the optimum way of producing these units.
-- The mathematical problem to solve is the following:
+
+In this case the objective function to optimize is given by $TC = 50K + 30L +25M + 20N$, and the constraint is as follows: $Q = 0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044} = 1,200$
+
+Accordingly, the mathematical formulation of this problem is then given as follows:
 
 $$
 \begin{eqnarray}
 \begin{array}{ccc}
-\text{Optimize } & 50K + 30L +25M + 20N\\
+\text{Optimize} & 50K + 30L +25M + 20N\\
 \text{Subject to } &  0.768 \cdot K^{0.147} \cdot L^{0.521} \cdot M^{0.763} \cdot N^{0.044} = 1,200 
 \end{array}
 \end{eqnarray}
 $$
 
-- The stationary point is given by: $K = 23.49131857, L = 138.76391129, M = 243.86225946, N = 17.57853771$
-- Testing the nature of this point, we conclude that the point gives the minimum. Thus the values for $K, L, M, N$ determine the the minimum point.
-- Accordingly, the cheapest cost level for producing this output will therefore be $50(23.49131857)+ 30(138.76391129) +25(243.86225946) + 20(17.57853771)= \$ 11,785.6105079$
+
+The corresponding Lagrange function is therefore
+
+$$G = 50K + 30L +25M + 20N + \lambda (1,200 - 0.768  K^{0.147}  L^{0.521}  M^{0.763} N^{0.044})$$
+
+Differentiating to get stationary points.
+
+To find the partial derivatives of $G$ with respect to each of the variables $K$, $L$, $M$, $N$, and $\lambda$, we can differentiate each term in $G$ separately.
+
+$$\frac{\partial G}{\partial K} = 50 + \lambda\left(-0.112896K^{-0.853}L^{0.521}M^{0.763}N^{0.044}\right) = 0 \hspace{1.5in}(1)$$
+
+$$\frac{\partial G}{\partial L} = 30 + \lambda\left(-0.400128K^{0.147}L^{-0.479}M^{0.763}N^{0.044}\right) = 0 \hspace{1.5in}(2)$$
+
+$$\frac{\partial G}{\partial M} = 25 + \lambda\left(-0.585984K^{0.147}L^{0.521}M^{-0.237}N^{0.044}\right) = 0 \hspace{1.47in}(3)$$
+
+$$\frac{\partial G}{\partial N} = 20 + \lambda\left(-0.033792K^{0.147}L^{0.521}M^{0.763}N^{-0.956}\right) = 0 \hspace{1.5in}(4)$$
+
+$$\frac{\partial G}{\partial \lambda} = 1,200 - 0.768K^{0.147}L^{0.521}M^{0.763}N^{0.044} = 0 \hspace{2in}(5)$$
+
+Solving the above nonlinear system of equations we have to use python as the previous one.
+
+![python_output_3](https://github.com/user-attachments/assets/75d763a2-d140-4f85-98f5-e3d015b85788)
+
+Now from the above output, optimum values  should be the following:
+
+$$
+\begin{cases}
+K = 23.49131857\\
+L = 138.76391129\\
+M = 243.86225946\\
+N = 17.57853771\\
+\lambda = 6.65853701
+\end{cases}
+$$
+
+Checking that these values do give the required 1,200 units of output:
+$$Q = 0.768 (23.49131857)^{0.147} (138.76391129)^{0.521} (243.86225946)^{0.763} (17.57853771)^{0.044} = 1,200$$
+
+For  test of  stationary points, write the bordered Hessian matrix 
+
+
+ $$\frac{\partial^2 G}{\partial K^2}  = \lambda \left(0.096630976K^{-1.853}L^{0.521}M^{0.763}N^{0.044}\right)$$ 
+ 
+ $$\frac{\partial^2 G}{\partial K \partial L}  = \lambda \left(-0.056418048K^{-0.853}L^{-0.479}M^{0.763}N^{0.044}\right) $$
+ 
+$$\frac{\partial^2 G}{\partial K \partial M}  = \lambda \left(-0.086139648K^{-0.853}L^{0.521}M^{-0.237}N^{0.044}\right)$$
+
+ $$\frac{\partial^2 G}{\partial K \partial N}   = \lambda \left(-0.004967424K^{-0.853}L^{0.521}M^{0.763}N^{-0.956}\right)$$
+ 
+$$\frac{\partial^2 G}{\partial L^2}   =  \lambda \left(0.191661312K^{0.147}L^{-1.479}M^{0.763}N^{0.044}\right)$$
+
+$$\frac{\partial^2 G}{\partial L \partial M}   = \lambda \left(-0.305297664K^{0.147}L^{-0.479}M^{-0.237}N^{0.044}\right)$$
+
+$$\frac{\partial^2 Q}{\partial L \partial N}   = \lambda \left(-0.017605632K^{0.147}L^{-0.479}M^{0.763}N^{-0.956}\right)$$
+
+$$\frac{\partial^2 G}{\partial M^2}   =  \lambda \left(0.138878208K^{0.147}L^{0.521}M^{-1.237}N^{0.044}\right)$$
+
+$$\frac{\partial^2 G}{\partial M \partial N}  = \lambda \left(-0.025783296K^{0.147}L^{0.521}M^{-0.237}N^{-0.956}\right)$$
+
+$$\frac{\partial^2 G}{\partial N^2} = \lambda \left(0.032305152K^{0.147}L^{0.521}M^{0.763}N^{-1.956}\right)$$
+
+Thus the matrix $\pmb{W}$ which is symmetric is given by
+
+$$
+W = \begin{bmatrix}
+\dfrac{\partial^2 G}{\partial K^2} & \dfrac{\partial^2 G}{\partial K \partial L} & \dfrac{\partial^2 G}{\partial K \partial M} & \dfrac{\partial^2 G}{\partial K \partial N}\\\\
+\dfrac{\partial^2 G}{\partial L \partial K} & \dfrac{\partial^2 G}{\partial L^2} & \dfrac{\partial^2 G}{\partial L \partial M} & \dfrac{\partial^2 G}{\partial L \partial N}\\\\
+\dfrac{\partial^2 G}{\partial M \partial K} & \dfrac{\partial^2 G}{\partial M \partial L} &   \dfrac{\partial^2 G}{\partial M^2}  & \dfrac{\partial^2 G}{\partial M \partial N}\\\\
+\dfrac{\partial^2 G}{\partial N \partial K} & \dfrac{\partial^2 G}{\partial N \partial L} & \dfrac{\partial^2 G}{\partial N \partial M} & \dfrac{\partial^2 G}{\partial N^2} 
+\end{bmatrix}
+$$
+
+$$=\begin{bmatrix}                1.82179884	& -0.180066521	& -0.156440771 &	-0.00051321\\\\
+-0.180066521 &	0.103557185	& -0.093864463	& -0.07509157\\\\
+-0.156440771 &	-0.093864463 &	0.024296503	 & -0.062576309\\\\
+-0.00051321 &	-0.07509157	& -0.062576309 &	1.087690018
+\end{bmatrix}$$
+
+
+and 
+
+$$P= \begin{bmatrix}
+7.509157031 &	4.505494218	& 3.754578515 &	3.003662811\\
+\end{bmatrix}
+$$
+
+Therefore bordered Hessian matrix is given by 
+
+ $$
+ H^B = \begin{bmatrix}
+0 & 7.509157031	& 4.505494218 &	3.754578515 &	3.003662811\\\\
+7.509157031 &	1.82179884	& -0.180066521 &	-0.156440771	& -0.00051321\\\\
+4.505494218	& -0.180066521	& 0.103557185 &	-0.093864463	& -0.07509157\\\\
+3.754578515 &	-0.156440771	& -0.093864463	& 0.024296503	& -0.062576309\\\\
+3.003662811 &	-0.00051321	& -0.07509157	& -0.062576309	& 1.087690018
+\end{bmatrix}
+$$
+
+
+Here $n = 4, m = 1, 2m + 1 = 3$. Starting from the principal minor determinant of order 3, we check $n-m = 3$ principal minor determinants. 
+Note that
+
+  $$
+  |\Delta_3| = \begin{vmatrix}
+0 &	7.509157031 &	4.505494218 \\\\
+7.509157031	& 1.82179884	&-0.180066521\\\\
+4.505494218	& -0.180066521	& 0.103557185
+\end{vmatrix} =-55.00507821
+$$
+
+$$
+|\Delta_4| = \begin{vmatrix}
+0 &	7.509157031	& 4.505494218 &	3.754578515\\\\
+7.509157031	& 1.82179884	& -0.180066521 &	-0.156440771\\\\
+4.505494218 &	-0.180066521 &	0.103557185 &	-0.093864463\\\\
+3.754578515	& -0.156440771	& -0.093864463 &	0.024296503
+\end{vmatrix} = -12.14391062
+$$
+
+  $$
+  |\Delta_5| = \begin{vmatrix}
+0 &	7.509157031 &	4.505494218	& 3.754578515 & 3.003662811\\\\
+7.509157031 &	1.82179884 &	-0.180066521 &	-0.156440771 &	-0.00051321\\\\
+4.505494218 &	-0.180066521 &	0.103557185	& -0.093864463 &	-0.07509157\\\\
+3.754578515 &	-0.156440771 &	-0.093864463 &	0.024296503	& -0.062576309\\\\
+3.003662811 &	-0.00051321	& -0.07509157 &	-0.062576309 &	1.087690018
+\end{vmatrix}=-14.04190435
+$$
+
+
+It is shown that all $|\Delta_3|, |\Delta_4|, \text{and } |\Delta_5|$ have sign of $(-1)^1$ Thus the values for $K, L, M, N$ determine the the minimum point. Accordingly, the cheapest cost level for producing this output will therefore be $TC=50(23.49131857)+ 30(138.76391129) +25(243.86225946) + 20(17.57853771)= \$ 11,785.6105079$
+
 
 ## Conclusion and Recommendations
 
