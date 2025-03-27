@@ -81,7 +81,8 @@ The above problems can be extended by increasing the number of constrains, which
 ## Objectives
 
  **The Primary Objective** of this research is to optimize the output from the generalized Cobb-Douglass production function in a given company, and to determine an optimal combination of inputs given a fixed amount of units in  the production function.
- **The specific objectives of this study are the following:**:
+ 
+ **The specific objectives of this study are the following**:
  - To estimate the parameters of the generalized Cobb-Douglass production function in a firm with more than two inputs.
  - To determine how much output to produce from the Cobb-Douglas production function for a given amount of inputs.
  - To know the optimal output from the Cobb-Douglass production function, and what combination of inputs to be used given the price of inputs.
