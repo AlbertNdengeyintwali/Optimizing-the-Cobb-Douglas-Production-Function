@@ -15,7 +15,7 @@
 
 In economics, a production function relates physical output of a production process to physical inputs or factors of production. It is a mathematical function that relates the maximum amount of output that can be obtained from a given number of inputs. Different inputs include generally the capital and labor  
  
-The production function could be expressed in a general form such as $Q=f(x_1, x_2, \cdots, x_n)$, where $Q$ denotes the output of the firm, and $x_1, x_2, \cdots, x_n$ are the number of inputs of the firm such as factor inputs such as capital, labor, land or raw materials, etc {\color{blue}\cite{Mankiw}}. If $x_1=x_2=\cdots=x_n=0$ then $Q=0$ since we cannot produce anything without inputs.  The function  $f(x_1, x_2, \cdot, x_n)$ represents how inputs  $x_1,x_2, \cdots, x_n$  are used in the production process to create output from inputs. 
+The production function could be expressed in a general form such as $Q=f(x_1, x_2, \cdots, x_n)$, where $Q$ denotes the output of the firm, and $x_1, x_2, \cdots, x_n$ are the number of inputs of the firm such as factor inputs such as capital, labor, land or raw materials, etc. If $x_1=x_2=\cdots=x_n=0$ then $Q=0$ since we cannot produce anything without inputs.  The function  $f(x_1, x_2, \cdot, x_n)$ represents how inputs  $x_1,x_2, \cdots, x_n$  are used in the production process to create output from inputs. 
 
 Some examples of the production functions in Economics are the following :
 Linear production functions, Diminishing Returns Production Function, Fixed proportions, Perfect Substitutes Production Function and the  Cobb Douglas Production Functions.
